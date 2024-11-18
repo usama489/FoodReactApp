@@ -1,0 +1,27 @@
+
+.restaurantCard{
+    /* display: flex; */
+
+    height:320px;
+    width:200px;
+    padding:1px;
+    margin:2px;
+    /* border:2px solid black; */
+    border-radius:5%;
+    background-color:white;
+    /* box-shadow:  10px 5px gray; */
+    
+}
+.restaurantCard:hover{
+    cursor:pointer;
+    /* background-color: white; */
+}
+.restaurantCardImage{
+    /* padding:2px; */
+    /* margin:2px; */
+    border-radius:5%;
+    height:140px;
+    width:200px;
+
+
+}

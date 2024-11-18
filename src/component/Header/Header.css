@@ -1,0 +1,39 @@
+.header{
+    /* display:flex; */
+    /* justify-content: space-between; */
+    background-color:white;
+}
+a {
+    color: black;
+  }
+.headerLoginButton{
+    height:28px;
+    width:60px;
+    border:2px solid black;
+    border-radius:10%;
+    font-size:20px;
+}
+.headerLoginButton:hover{
+   cursor: pointer;
+   background-color: rgb(53, 185, 218);
+   color: white;
+   border-color: aquamarine;
+}
+.navListItem{
+    border:2px solid black;
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+   
+}
+.navListItem li{
+   
+    font-size: 20px;
+
+    /* border:2px solid black; */
+    margin:auto;
+}
+.navListItem .about:hover{
+    cursor:pointer;
+
+}

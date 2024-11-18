@@ -1,0 +1,60 @@
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    /* border:1px solid red; */
+    margin-top:2px;
+
+}
+.searchBox{
+  
+    /* justify-content: center; */
+    height:30px;
+    width:250px;
+    padding: 1px
+    ;
+    /* background-color: red; */
+    border:2px solid black;
+    border-radius:5%;
+  
+}
+.searchButton{
+    font-weight:600;
+    margin-left: 4px;
+    height:40px;
+    width:70px;
+    border:2px solid black;
+    border-radius:5px;
+}
+.searchButton:hover{
+    cursor:pointer;
+    background-color: gray;
+}
+
+.TopRestaurantButton{
+    font-weight:600;
+    height:40px;
+    padding: 2px;
+
+    margin-left:4px;
+    border:2px solid black;
+    border-radius:5%;
+    
+}
+.TopRestaurantButton:hover{
+    cursor: pointer;
+    background-color: gray;
+    
+}
+.useContextValueChangeBox input{
+    height:30px;
+    margin-left:4px;
+    border:2px solid black;
+    border-radius:10px;
+    padding: 1px;
+    /* text-align: center; */
+    /* line-height: 100px; */
+ 
+
+}

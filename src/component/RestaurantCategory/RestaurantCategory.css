@@ -1,0 +1,131 @@
+
+*,
+:after,
+:before {
+  margin: 0;
+  padding: 0;
+  outline:0;
+  
+}
+
+.categoryContainer {
+  /* border:1px solid red; */
+  margin: auto;
+  width:50%;
+ 
+}
+.accordionHeader {
+  display:flex;
+  /* border:1px solid green; */
+  justify-content: space-between;
+  align-items: center;
+  border-top: 16px solid rgba(2, 6, 12, 0.05);
+  border-bottom: 16px solid rgba(2, 6, 12, 0.0509803922);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.accordionHeader:hover {
+       cursor:pointer;
+      
+}      
+.itemDetails{
+  width:80%;
+}
+
+
+
+  
+.accordionItem {
+    display: flex;
+    border:1px solid green;
+    position: relative;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  
+  
+  }
+
+  .itemName {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .itemPrice {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .itemRating {
+    font-size: 14px;
+    color: green;
+    margin-bottom: 5px;
+  }
+  
+  .itemDescription {
+    font-size: 14px;
+  
+  }
+  
+  /* Right side: Image and button */
+  .imageContainer {
+  
+    position: relative;
+    width: 140px;
+    height: 150px;
+    
+  
+   
+  }
+  
+  .itemImage {
+   
+    width: 140px;
+    height: 130px;
+  
+     border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  /* "ADD" button */
+  .addButton {
+    position: absolute;
+    bottom: 15px;
+    left: 30px;;
+    width: 80px;
+    padding: 8px 0;
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #2e7d32;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  
+  }
+  
+  .addButton:hover {
+    transform: scale(1.05);
+    background-color: #e0e0e0;
+  }
+  
+  /* Customisable text */
+  .customizableText {
+  
+    font-size: 12px;
+    margin-top: 3px;
+    margin-left:30px;
+    
+    color: #888;
+  }
+  .arrowButton{
+  
+    display:flex;
+    justify-content: end;
+    /* border:1px solid black; */
+    
+  }
+  
